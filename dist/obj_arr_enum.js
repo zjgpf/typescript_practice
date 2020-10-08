@@ -1,17 +1,17 @@
 "use strict";
-var person = {
+const person = {
     name: 'bill',
     age: 35
 };
 console.log(person.nickName);
-var person2 = {
+const person2 = {
     name: 'tom',
     age: 20
 };
 console.log(person2.name);
-var hobbies;
+let hobbies;
 hobbies = ['anime', 3];
-var person3 = {
+const person3 = {
     name: 'tom',
     age: 20,
     hobbies: ['anime', 'music'],
@@ -26,9 +26,10 @@ var Role;
     Role[Role["AUTHOER"] = 6] = "AUTHOER";
 })(Role || (Role = {}));
 ;
-var person4 = {
+const person4 = {
     name: 'tom',
     age: 20,
     hobbies: ['anime', 'music'],
     role: Role.ADMIN
 };
+//# sourceMappingURL=obj_arr_enum.js.map
